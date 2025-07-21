@@ -9,12 +9,13 @@
   position: sticky;
   top: 0;
   z-index: 1000;
+  list-style: none;
 }
 
 .navbar-logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #facc15; /* Yellow accent */
+  color: #facc15; 
 }
 
 .navbar-links {
@@ -33,7 +34,7 @@
 }
 
 .navbar-links li a:hover {
-  color: #facc15; /* Yellow accent on hover */
+  color: #facc15; 
 }
 
 /* Responsive */

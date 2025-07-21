@@ -1,10 +1,12 @@
 import React from "react";
 
 
-function Navbar() {
+const Navbar =() => {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">AI Resume Matcher</div>
+      <div 
+       className="navbar-logo">AI Resume Matcher
+       </div>
       <ul className="navbar-links">
         <li><a href="/">Home</a></li>
         <li><a href="/resumes">Upload Resume</a></li>
