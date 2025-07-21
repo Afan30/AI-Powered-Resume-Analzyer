@@ -1,0 +1,74 @@
+.optimize-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+
+.optimize-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.optimize-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.optimize-form input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.optimize-form input:focus {
+  border-color: #007bff;
+}
+
+.optimize-form button {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.optimize-form button:hover {
+  background-color: #218838;
+}
+
+.optimize-output {
+  margin-top: 24px;
+  background-color: #f8f9fa;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.optimize-output h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.optimize-output pre {
+  font-size: 14px;
+  white-space: pre-wrap;
+  color: #444;
+  line-height: 1.6;
+}

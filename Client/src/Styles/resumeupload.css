@@ -1,0 +1,60 @@
+
+.resumeupload-container {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.resumeupload-container h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1e293b; 
+  text-align: center;
+}
+
+.resumeupload-form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #f9fafb;
+  margin-bottom: 20px;
+}
+
+.resumeupload-form input[type="file"]:focus {
+  border-color: #facc15; /* Yellow accent */
+  box-shadow: 0 0 4px rgba(250, 204, 21, 0.6);
+}
+
+.resumeupload-btn {
+  display: block;
+  width: 100%;
+  background-color: #1e293b; /* Matches navbar */
+  color: #facc15; /* Yellow text */
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.resumeupload-btn:hover {
+  background-color: #111827; /* Darker navy */
+  transform: scale(1.02);
+}
+
+.resumeupload-message {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #16a34a; /* Success green */
+}

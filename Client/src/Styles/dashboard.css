@@ -1,0 +1,73 @@
+
+.dashboard-container {
+  padding: 30px;
+  max-width: 1200px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1e293b; /* Dark navy */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+/* Jobs & Matches section */
+.dashboard-section {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.dashboard-section h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #facc15; /* Yellow accent */
+  padding-bottom: 8px;
+}
+
+.job-card,
+.match-card {
+  border: 1px solid #e5e7eb;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  background-color: #f9fafb;
+  font-size: 1rem;
+  color: #374151;
+}
+
+.job-card button {
+  background-color: #1e293b; /* Navy */
+  color: #facc15; /* Yellow */
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 8px 12px;
+  margin-left: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.job-card button:hover {
+  background-color: #111827; /* Darker navy */
+  transform: scale(1.05);
+}
+
+/* Matches text */
+.match-card {
+  background-color: #ecfdf5; /* Light green for matches */
+  border: 1px solid #16a34a; /* Green border */
+}

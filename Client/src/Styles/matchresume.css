@@ -1,0 +1,80 @@
+.match-result-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+
+.match-result-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.match-input-section {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.match-input-section input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.match-input-section input:focus {
+  border-color: #007bff;
+}
+
+.match-input-section button {
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.match-input-section button:hover {
+  background-color: #0056b3;
+}
+
+.match-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.match-table th,
+.match-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.match-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.match-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.match-table tr:hover {
+  background-color: #f1f1f1;
+}
